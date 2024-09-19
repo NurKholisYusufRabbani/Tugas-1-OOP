@@ -9,7 +9,7 @@ class TurtleKuraKura:
         self.t.color("red")
         self.t.speed(4)
 
-    # Method untuk menggerakkan kura-kura dalam bentuk persegi sebagai contoh
+    # Method untuk menggerakkan kura-kura dalam bentuk segitiga
     def gerak(self, size):
         for _ in range(3):
             self.t.forward(size)
